@@ -15,31 +15,43 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="./ppt_background/纯色1.jpg" -->
+      <div class="slides"><section  data-markdown><script type="text/template"># Title
 
-## 简易分布式文件系统
-
-
-
-### 需求分析
-
-5 班 任振丰
+- Point 1
+- Point 2
 </script></section><section  data-markdown><script type="text/template">
+## Second slide
+
+> Best quote ever.
+
+<aside class="notes"><p>speaker notes FTW!</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Third slide
+
+Code section
+Syntax highlighting
+
+```js
+console.log('Hello world!');
+```
+Highlight some lines
+You can highlight one line, multiple lines or both.
+
+```python [1|3-6]
+n = 0
+while n < 10:
+  if n % 2 == 0:
+    print(f"{n} is even")
+  else:
+    print(f"{n} is odd")
+  n += 1
+```
 
 
 
-
-# slide1
-
-This slide has no background image.
-</script></section><section  data-markdown><script type="text/template">
-
-
-# slide2
-
-
-
-This one does!</script></section></div>
+> reveal-md slides.md --theme white
+>
+> reveal-md slides.md --static _site</script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
