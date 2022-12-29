@@ -8,48 +8,233 @@
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
 
 
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"># Title
+      <div class="slides"><section  data-markdown><script type="text/template">### 简易分布式文件系统——需求分析
 
-- Point 1
-- Point 2
+<br/>
+
+- 需求导出（用户角度）
+- 软件需求规格说明文档（技术人员角度）
+- UML 描述（用例图、静态、动态）
 </script></section><section  data-markdown><script type="text/template">
-## Second slide
+#### **1. 需求导出（用户角度）**
 
-> Best quote ever.
+（用户角度-初步）
+<br/>
 
-<aside class="notes"><p>speaker notes FTW!</p>
-</aside></script></section><section  data-markdown><script type="text/template">
-## Third slide
+##### **1.1 功能性需求**
 
-Code section
-Syntax highlighting
-
-```js
-console.log('Hello world!');
-```
-Highlight some lines
-You can highlight one line, multiple lines or both.
-
-```python [1|3-6]
-n = 0
-while n < 10:
-  if n % 2 == 0:
-    print(f"{n} is even")
-  else:
-    print(f"{n} is odd")
-  n += 1
-```
+<br/>
 
 
+1. 系统提供用户基本的上传文件、下载文件功能，支持多种文件类型，以及文件大小（系统主要针对**大文件**存储而设计）。
+2. 系统支持文件元数据信息的查询，包括目录信息、文件大小、所有者、创建时间等。
+3. 系统提供创建目录（文件路径）、修改文件/目录名称的功能，方便用户管理文件。
 
-> reveal-md slides.md --theme white --static _site</script></section></div>
+
+</script></section><section  data-markdown><script type="text/template">
+##### 1.2 非功能性需求
+
+1. 提供**简单易用**的界面和用户指南，方便用户操作。
+2. 系统的**性能**要能够满足用户对于上传/下载文件速度的要求。
+3. 系统的**可用性**高，保证系统能够稳定运行，并提供快速响应和高可靠性。
+4. 系统的**可拓展性**强，能够支持大量的用户和文件，并支持后续的功能扩展。
+5. 系统的**安全性**保证，提供基于用户角色的权限控制，确保文件安全。
+6. 提供定期备份文件和日志记录功能，**方便用户恢复数据**和问题诊断。
+</script></section><section  data-markdown><script type="text/template">
+<div style="page-break-after: always;"></div>
+
+#### **2. 软件需求规格说明文档（技术人员角度）**
+
+使用者：后续的设计、开发、测试人员
+
+##### **2.1 功能需求**
+
+![image-20221229230816479](slides.assets/image-20221229230816479.png)
+</script></section><section  data-markdown><script type="text/template">
+##### **2.2 界面需求**
+
+- 提供良好易用的 command line interface (CLI) 工具。 
+
+
+
+<br/>
+
+##### **2.3 性能需求** 
+
+明确系统在**不同的负载下**的性能要求，包括最大并发连接数（**并发使用用户数**）、上传下载文件的**吞吐量**以及用户执行各个命令的**延迟**。  
+
+学习使用，量化的数值暂略。
+</script></section><section  data-markdown><script type="text/template">
+##### **2.4 属性**
+
+1. 可用性（**important**）：
+
+- 文件系统应该有完善的**异常处理**机制，出现用户非法输入等各种可能的异常情况**不会崩溃**，以保证系统的可用性。
+- 应该提供一定的**容错**能力（**透明的 failover 机制**），当有节点出现故障时可以继续保持系统的可用性。
+</script></section><section  data-markdown><script type="text/template">
+
+
+2. 安全性：
+
+<br/>
+
+   - 提供文件**访问权限控制**，只有拥有访问权限的用户才能读取文件或者修改文件。
+   - 提供**数据完整性检查**，保证文件在传输和存储过程中不会被**篡改**。
+   - 考虑实现**加密**机制，对文件进行加密存储，保证文件在**传输和存储过程中不会被窃取**。
+</script></section><section  data-markdown><script type="text/template">
+
+
+3. 可维护性：
+
+- 提供详细的**日志机制**，记录文件系统的操作日志，方便后续排查故障。
+- 提供简单易用的**系统监控**工具，及时发现系统运行中的问题。
+- 提供**可扩展的架构设计**，方便后续对系统的扩展升级。
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+
+4. 可移植性：
+
+- 提供**跨平台**的支持（ABI 实现），保证系统在**不同的操作系统**平台上都能正常运行。
+- 使用标准的**文件存储格式**，方便系统中的文件在**不同的文件系统**之间进行互操作。
+- 采用统一/兼容性较好的**接口规范**，使系统与其他系统之间能够进行互操作。
+</script></section><section  data-markdown><script type="text/template">
+##### 2.5 其他需求
+
+- 配置需求：如何配置参数，包括服务器地址、端口、日志参数等信息。
+- 故障恢复：如何处理故障，包括自动重启、数据检查和修复、数据备份和恢复等。
+- 系统管理：如何提供管理功能，包括用户、权限、监控、日志等。
+- 系统升级：描述系统如何支持软件的升级，包括新版本的发布、版本回退、版本比较等。
+</script></section><section  data-markdown><script type="text/template">
+<div style="page-break-after: always;"></div>
+
+#### 3. UML 描述(用例图，静态模型，动态模型)
+
+##### 3.1 用例图
+
+![image-20221209021718317](req_analysis.assets/usercase_dia.svg)
+</script></section><section  data-markdown><script type="text/template">
+<div style="page-break-after: always;"></div>
+
+##### 3.2 类图和对象图（静态）
+</script></section><section  data-markdown><script type="text/template">
+<br/>
+
+**MetaServer** 职责：
+
+1. 响应 Client 请求。（Get, Put, Delete, Rename, Stat, List, Mkdir）
+2. 文件子系统: 负责文件目录树的管理，存储文件目录树的元数据。负责文件/目录的增删改查。
+3. 当用户上传大文件时，将其切分为若干个 Chunk（Spliter），为每个 Chunk 分配一个 UniqueID
+4. Chunk 管理：映射到对应 ChunkServers（HandelsMapper）。
+</script></section><section  data-markdown><script type="text/template">
+
+
+5. ChunkServer 管理：负责 ChunkServer 的检活，接收 ChunkServer 上报的handles，容量等统计信息; 上下线管理 -> 副本迁移。
+
+6. 副本维护：副本丢失检测机制/副本补全机制/副本迁移
+
+7. 上述元数据持久化与同步：持久化存储模块、共识协议: MetaServer 容错。
+</script></section><section  data-markdown><script type="text/template">
+**ChunkServer** 职责：
+
+1. 响应 Client 读写数据请求：写数据时，Client 提供该 ChunkID 的同组 ChunkServer 地址 -> 2.自动向同组其他 ChunkServer 同步副本。
+2. 同步副本
+3. 接收 MetaServer 发送的控制命令：下线命令、副本补全命令 -> 2.向其他 ChunkServer 同步副本。
+4. 心跳：向 MetaServer 上报统计信息
+5. 单机存储：持久化、压缩，加速
+</script></section><section  data-markdown><script type="text/template">
+
+
+**Client** 职责：
+
+1. 提供用户基本 API
+2. 从 MetaServer 获取实际读写的 ChunkServer 地址。
+3. 向 ChunkServer 发送实际的读写请求。
+</script></section><section  data-markdown><script type="text/template">
+###### 3.2.1 类图
+
+![image-20221229232506209](slides.assets/image-20221229232506209.png)
+
+
+</script></section><section  data-markdown><script type="text/template">
+###### 3.2.2 对象图
+
+
+
+![](req_analysis.assets/object_dia.svg)
+</script></section><section  data-markdown><script type="text/template">
+
+<div style="page-break-after: always;"></div>
+
+
+##### 3.3 顺序图和状态图（动态）
+</script></section><section  data-markdown><script type="text/template">
+##### 3.3.1 顺序图
+
+###### Client 请求读文件数据
+
+![image-20221229232800080](slides.assets/image-20221229232800080.png)
+</script></section><section  data-markdown><script type="text/template">
+###### Client 请求写文件数据
+
+![image-20221229232933623](slides.assets/image-20221229232933623.png)
+</script></section><section  data-markdown><script type="text/template">
+###### Client 请求读文件元数据信息
+
+![image-20221229232952335](slides.assets/image-20221229232952335.png)
+
+
+</script></section><section  data-markdown><script type="text/template">
+###### Client 请求修改文件元数据信息
+
+![image-20221229233038036](slides.assets/image-20221229233038036.png)
+</script></section><section  data-markdown><script type="text/template">
+###### ChunkServer 检活以及副本补全
+
+![image-20221229233056270](slides.assets/image-20221229233056270.png)
+
+
+</script></section><section  data-markdown><script type="text/template">
+##### 3.3.2 状态图
+
+###### Client
+
+![image-20221229233834543](slides.assets/image-20221229233834543.png)
+
+
+</script></section><section  data-markdown><script type="text/template">
+###### MetaServer
+
+![image-20221229234026700](slides.assets/image-20221229234026700.png)
+
+
+</script></section><section  data-markdown><script type="text/template">
+###### ChunkServer
+
+![image-20221229233158219](slides.assets/image-20221229233158219.png)
+
+
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+<div style="page-break-after: always;"></div>
+
+##### 3.4 活动图（动态）
+
+![](req_analysis.assets/activity_dia.svg)
+
+
+
+</script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>

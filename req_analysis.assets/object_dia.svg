@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="609px" preserveAspectRatio="none" style="width:1721px;height:609px;background:#FFFFFF;" version="1.1" viewBox="0 0 1721 609" width="1721px" zoomAndPan="magnify"><defs/><g><g id="elem_leader"><rect fill="#F1F1F1" height="145.8408" style="stroke:#181818;stroke-width:0.5;" width="238" x="378" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="438" y="25.0439">MetaServerLeader</text><line style="stroke:#181818;stroke-width:0.5;" x1="379" x2="615" y1="30.1201" y2="30.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="386" y="42.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="398" y="50.1641">vector[clientConns]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="386" y="61.3003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="398" y="69.2842">vector[groupRaftMachines] ={2,3}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="386" y="80.4204"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="398" y="88.4043">file_sys_ptr_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="386" y="99.5405"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="398" y="107.5244">chunk_server_manager_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="386" y="118.6606"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="398" y="126.6445">replica_cordinator_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="386" y="137.7808"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="398" y="145.7646">db_</text></g><g id="elem_f1"><rect fill="#F1F1F1" height="145.8408" style="stroke:#181818;stroke-width:0.5;" width="238" x="7" y="232"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="59" y="250.0439">MetaServerFollower1</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="244" y1="255.1201" y2="255.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="267.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="27" y="275.1641">vector[clientConns]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="286.3003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="27" y="294.2842">vector[groupRaftMachines] ={1,2}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="305.4204"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="27" y="313.4043">file_sys_ptr_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="324.5405"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="27" y="332.5244">chunk_server_manager_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="343.6606"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="27" y="351.6445">replica_cordinator_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="362.7808"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="27" y="370.7646">db_</text></g><g id="elem_f2"><rect fill="#F1F1F1" height="145.8408" style="stroke:#181818;stroke-width:0.5;" width="238" x="126" y="457"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="178" y="475.0439">MetaServerFollower2</text><line style="stroke:#181818;stroke-width:0.5;" x1="127" x2="363" y1="480.1201" y2="480.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="134" y="492.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="146" y="500.1641">vector[clientConns]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="134" y="511.3003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="146" y="519.2842">vector[groupRaftMachines] ={2,3}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="134" y="530.4204"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="146" y="538.4043">file_sys_ptr_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="134" y="549.5405"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="146" y="557.5244">chunk_server_manager_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="134" y="568.6606"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="146" y="576.6445">replica_cordinator_</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="134" y="587.7808"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="146" y="595.7646">db_</text></g><g id="elem_FileSystem"><rect fill="#F1F1F1" height="50.2402" style="stroke:#181818;stroke-width:0.5;" width="118" x="351" y="280"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="375.5" y="298.0439">FileSystem</text><line style="stroke:#181818;stroke-width:0.5;" x1="352" x2="468" y1="303.1201" y2="303.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="359" y="315.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="371" y="323.1641">file_tree_root_</text></g><g id="elem_ChunkServerManager"><rect fill="#F1F1F1" height="50.2402" style="stroke:#181818;stroke-width:0.5;" width="207" x="504.5" y="280"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="538.5" y="298.0439">ChunkServerManager</text><line style="stroke:#181818;stroke-width:0.5;" x1="505.5" x2="710.5" y1="303.1201" y2="303.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="512.5" y="315.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="524.5" y="323.1641">map&lt;Handles, AliveServers&gt;</text></g><g id="elem_ReplicaCordinator"><rect fill="#F1F1F1" height="39.1201" style="stroke:#181818;stroke-width:0.5;" width="128" x="650" y="510.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="657" y="528.5439">ReplicaCordinator</text><line style="stroke:#181818;stroke-width:0.5;" x1="651" x2="777" y1="533.6201" y2="533.6201"/></g><g id="elem_MetaStore"><rect fill="#F1F1F1" height="50.2402" style="stroke:#181818;stroke-width:0.5;" width="114" x="891" y="280"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="915.5" y="298.0439">MetaStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="892" x2="1004" y1="303.1201" y2="303.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="899" y="315.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="911" y="323.1641">storage_eng_</text></g><g id="elem_Client1"><rect fill="#F1F1F1" height="88.4805" style="stroke:#181818;stroke-width:0.5;" width="210" x="673" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="756" y="54.0439">Client1</text><line style="stroke:#181818;stroke-width:0.5;" x1="674" x2="882" y1="59.1201" y2="59.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="681" y="71.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="693" y="79.1641">vector[MetaServerClusters]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="681" y="90.3003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="693" y="98.2842">map[filename-&gt;ChunkServer]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="681" y="109.4204"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="693" y="117.4043">clientID = "id1"</text></g><g id="elem_Client2.."><rect fill="#F1F1F1" height="88.4805" style="stroke:#181818;stroke-width:0.5;" width="210" x="1005" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1084" y="54.0439">Client2..</text><line style="stroke:#181818;stroke-width:0.5;" x1="1006" x2="1214" y1="59.1201" y2="59.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1013" y="71.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1025" y="79.1641">vector[MetaServerClusters]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1013" y="90.3003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="1025" y="98.2842">map[filename-&gt;ChunkServer]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1013" y="109.4204"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1025" y="117.4043">clientID = "id2"</text></g><g id="elem_ChunkServer1"><rect fill="#F1F1F1" height="69.3604" style="stroke:#181818;stroke-width:0.5;" width="421" x="1293.5" y="45.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1458.5" y="63.5439">ChunkServer1</text><line style="stroke:#181818;stroke-width:0.5;" x1="1294.5" x2="1713.5" y1="68.6201" y2="68.6201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1301.5" y="80.6802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1313.5" y="88.6641">vector[MetaServerCluster]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1301.5" y="99.8003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="395" x="1313.5" y="107.7842">map[HandlesID-&gt;ChunkDataStore] = {1238789:p, 32747000:q}</text></g><g id="elem_ChunkServer2"><rect fill="#F1F1F1" height="69.3604" style="stroke:#181818;stroke-width:0.5;" width="416" x="1040" y="270.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1202.5" y="288.5439">ChunkServer2</text><line style="stroke:#181818;stroke-width:0.5;" x1="1041" x2="1455" y1="293.6201" y2="293.6201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1048" y="305.6802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1060" y="313.6641">vector[MetaServerCluster]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1048" y="324.8003"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="390" x="1060" y="332.7842">map[HandlesID-&gt;ChunkDataStore] = {87345676:s, 7834501:t}</text></g><g id="elem_DataStore"><rect fill="#F1F1F1" height="50.2402" style="stroke:#181818;stroke-width:0.5;" width="78" x="1393" y="505"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1400" y="523.0439">DataStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="1394" x2="1470" y1="528.1201" y2="528.1201"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1401" y="540.1802"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="1413" y="548.1641">db_</text></g><!--MD5=[7bf9ad54ba291b307c16526f2c19f7f0]
+reverse link ChunkServerManager to ReplicaCordinator--><g id="link_ChunkServerManager_ReplicaCordinator"><path codeLine="42" d="M621.74,334.91 C643.81,381.34 686.54,471.23 705.07,510.21 " fill="none" id="ChunkServerManager-backto-ReplicaCordinator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="619.55,330.29,619.8213,340.1351,621.7058,334.8014,627.0395,336.6859,619.55,330.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="666" y="423.8979">Dependency</text></g><!--MD5=[867094aa0bad4a339319c3a8ee06bea8]
+reverse link leader to FileSystem--><g id="link_leader_FileSystem"><path codeLine="44" d="M393.79,163.79 C389.64,169.92 385.98,176.33 383,183 C368.77,214.83 383.36,254.83 396,279.91 " fill="none" id="leader-backto-FileSystem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="401.76,153.05,394.9717,155.4829,394.6065,162.6847,401.3948,160.2519,401.76,153.05" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="384" y="198.8979">Aggregation</text></g><!--MD5=[867094aa0bad4a339319c3a8ee06bea8]
+reverse link leader to FileSystem--><g id="link_leader_FileSystem"><path codeLine="45" d="M471.18,165.85 C467.02,178.07 462.57,190.42 458,202 C447.3,229.13 432.79,259.23 422.54,279.65 " fill="none" id="leader-backto-FileSystem-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="475.4,153.2,469.7064,157.6252,471.6013,164.5829,477.2949,160.1577,475.4,153.2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="466" y="198.8979">Aggregation</text></g><!--MD5=[80a34df13d41e0a442533504bccb99a6]
+reverse link leader to ChunkServerManager--><g id="link_leader_ChunkServerManager"><path codeLine="46" d="M538.71,164.79 C559.15,205.86 582.26,252.28 595.95,279.8 " fill="none" id="leader-backto-ChunkServerManager" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="532.89,153.09,531.985,160.2441,538.2407,163.831,539.1457,156.6769,532.89,153.09" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="557" y="198.8979">Aggregation</text></g><!--MD5=[d66c7fae4e76385eacd20f72f3cef69b]
+reverse link leader to ReplicaCordinator--><g id="link_leader_ReplicaCordinator"><path codeLine="47" d="M627.68,138.22 C666.5,161.67 705.02,192.7 729,232 C774.33,306.3 760.56,341.03 747,427 C742.27,456.97 730.19,490.12 722.03,510.26 " fill="none" id="leader-backto-ReplicaCordinator" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="616.19,131.5,619.3505,137.9816,626.5491,137.5571,623.3886,131.0755,616.19,131.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="762" y="311.3979">Composition</text></g><!--MD5=[55b46c4976aa6cbe72df738b5ee838af]
+reverse link leader to MetaStore--><g id="link_leader_MetaStore"><path codeLine="48" d="M628.35,143.61 C637.28,147.01 646.22,150.18 655,153 C720.98,174.18 745.7,152.66 808,183 C856.81,206.77 902.19,251.89 927.4,279.81 " fill="none" id="leader-backto-MetaStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="616.18,138.83,620.3004,144.748,627.3479,143.2207,623.2275,137.3027,616.18,138.83" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="840" y="198.8979">Composition</text></g><!--MD5=[deb06826e4ba0830c6d20581e4c0c244]
+link leader to f1--><g id="link_leader_f1"><path codeLine="49" d="M377.74,127.97 C342.67,143.64 304.91,162.42 272,183 C249.25,197.23 226.19,214.66 205.32,231.81 " fill="none" id="leader-f1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1e7bb84c17c219681c632cc3a6268446]
+link f1 to f2--><g id="link_f1_f2"><path codeLine="50" d="M164.47,378.09 C177.92,403.29 193.01,431.57 206.46,456.77 " fill="none" id="f1-f2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d5903ca046f5a776d01117a2d9ffc7c9]
+link leader to f2--><g id="link_leader_f2"><path codeLine="51" d="M401.77,153.14 C390.69,162.78 379.85,172.85 370,183 C296.83,258.39 266.08,379.76 253.45,456.89 " fill="none" id="leader-f2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2e4256e8f4ca654cbb3cd8a84ac42eb8]
+reverse link ChunkServer1 to DataStore--><g id="link_ChunkServer1_DataStore"><path codeLine="82" d="M1501.74,127.93 C1498.33,186.76 1490.46,290.53 1474,378 C1465.42,423.59 1449.64,475.44 1440.05,504.98 " fill="none" id="ChunkServer1-backto-DataStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1502.47,114.67,1498.1465,120.4413,1501.8109,126.6519,1506.1344,120.8806,1502.47,114.67" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="1494" y="311.3979">Composition</text></g><!--MD5=[c3c3b826a252394120d5a4e34ccf31c4]
+reverse link ChunkServer2 to DataStore--><g id="link_ChunkServer2_DataStore"><path codeLine="83" d="M1284.25,349.94 C1322.52,396.31 1381.44,467.73 1412.03,504.8 " fill="none" id="ChunkServer2-backto-DataStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1275.95,339.87,1276.6819,347.0439,1283.5854,349.1275,1282.8535,341.9536,1275.95,339.87" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="1346" y="423.8979">Composition</text></g><!--MD5=[8336862e235eace4303beee7aef2393d]
+link ChunkServer1 to ChunkServer2--><g id="link_ChunkServer1_ChunkServer2"><path codeLine="84" d="M1465.4,114.63 C1417.07,156.73 1334.78,228.41 1286.5,270.46 " fill="none" id="ChunkServer1-ChunkServer2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e28012f003ca4cccfb54545a47465b45]
+@startuml
+
+object "MetaServerLeader" as leader
+object leader {
+    -vector[clientConns]
+    -vector[groupRaftMachines] ={2,3}
+    -file_sys_ptr_
+    -chunk_server_manager_
+    -replica_cordinator_
+    -db_
+}
+
+object "MetaServerFollower1" as f1
+object f1 {
+    -vector[clientConns]
+    -vector[groupRaftMachines] ={1,2}
+    -file_sys_ptr_
+    -chunk_server_manager_
+    -replica_cordinator_
+    -db_
+}
+
+object "MetaServerFollower2" as f2
+object f2 {
+    -vector[clientConns]
+    -vector[groupRaftMachines] ={2,3}
+    -file_sys_ptr_
+    -chunk_server_manager_
+    -replica_cordinator_
+    -db_
+}
+object FileSystem {
+    -file_tree_root_
+}
+object ChunkServerManager {
+    -map<Handles, AliveServers>
+}
+object ReplicaCordinator {
+}
+object MetaStore {
+    -storage_eng_
+}
+ChunkServerManager <.. ReplicaCordinator:Dependency
+
+leader o- - FileSystem:Aggregation
+leader o- - FileSystem:Aggregation
+leader o- - ChunkServerManager:Aggregation
+leader *- - ReplicaCordinator:Composition
+leader *- - MetaStore:Composition
+leader - - f1
+f1 - - f2
+leader - - f2
+
+
+object Client1 {
+    -vector[MetaServerClusters]
+    -map[filename->ChunkServer]
+    -clientID = "id1"
+}
+object Client2.. {
+    -vector[MetaServerClusters]
+    -map[filename->ChunkServer]
+    -clientID = "id2"
+}
+
+
+
+
+object ChunkServer1 {
+    -vector[MetaServerCluster]
+    -map[HandlesID->ChunkDataStore] = {1238789:p, 32747000:q}
+}
+
+object ChunkServer2 {
+    -vector[MetaServerCluster]
+    -map[HandlesID->ChunkDataStore] = {87345676:s, 7834501:t}
+}
+
+object DataStore {
+    -db_
+}
+
+ChunkServer1 *- - DataStore:Composition
+ChunkServer2 *- - DataStore:Composition
+ChunkServer1 - - ChunkServer2
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

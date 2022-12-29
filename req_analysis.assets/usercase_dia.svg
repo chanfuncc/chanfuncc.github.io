@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="448px" preserveAspectRatio="none" style="width:601px;height:448px;background:#FFFFFF;" version="1.1" viewBox="0 0 601 448" width="601px" zoomAndPan="magnify"><defs/><g><!--MD5=[719efceba59018cf7a52315ad3580606]
+cluster dis_file_sys--><g id="cluster_dis_file_sys"><rect fill="none" height="405" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="471" x="124" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="318.5" y="25.0439">dis_file_sys</text></g><g id="elem_F"><ellipse cx="201.6469" cy="353.0378" fill="#F1F1F1" rx="51.1469" ry="16.5378" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="171.8976" y="358.0136">管理文件</text></g><g id="elem_D"><ellipse cx="492.1469" cy="379.0378" fill="#F1F1F1" rx="51.1469" ry="16.5378" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="462.3976" y="384.0136">管理目录</text></g><g id="elem_F1"><ellipse cx="201.6469" cy="130.0378" fill="#F1F1F1" rx="51.1469" ry="16.5378" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="171.8976" y="135.0136">上传文件</text></g><g id="elem_F2"><ellipse cx="201.6469" cy="198.0378" fill="#F1F1F1" rx="51.1469" ry="16.5378" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="171.8976" y="203.0136">下载文件</text></g><g id="elem_F3"><ellipse cx="201.6469" cy="266.0378" fill="#F1F1F1" rx="51.1469" ry="16.5378" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="171.8976" y="271.0136">删除文件</text></g><g id="elem_F4"><ellipse cx="491.9481" cy="201.7896" fill="#F1F1F1" rx="86.9481" ry="19.7896" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="428.2712" y="206.4689">查看文件元数据信息</text></g><g id="elem_F5"><ellipse cx="201.4258" cy="62.1233" fill="#F1F1F1" rx="61.4258" ry="16.6233" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="163.4258" y="67.3952">修改文件名</text></g><g id="elem_D1"><ellipse cx="492.0719" cy="292.2144" fill="#F1F1F1" rx="71.5719" ry="16.7144" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="447.0719" y="297.4863">查询目录信息</text></g><g id="elem_D2"><ellipse cx="492.0719" cy="130.2144" fill="#F1F1F1" rx="71.5719" ry="16.7144" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="447.0719" y="135.4863">修改目录名称</text></g><g id="elem_D3"><ellipse cx="491.9258" cy="62.1233" fill="#F1F1F1" rx="61.4258" ry="16.6233" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="453.9258" y="67.3952">新建空目录</text></g><!--MD5=[7d46d6cd919e02e6168a09ad91eae8b4]
+entity u--><g id="elem_u"><ellipse cx="20.5" cy="372" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M20.5,380 L20.5,407 M7.5,388 L33.5,388 M20.5,407 L7.5,422 M20.5,407 L33.5,422 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="6" y="439.5439">User</text></g><!--MD5=[4321407f0f157718d56b5ad4847a4a2b]
+reverse link F to D--><g id="link_F_D"><path d="M270.72,359.15 C323.57,363.91 395.48,370.39 442.55,374.63 " fill="none" id="F-backto-D" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="270.08,366.12,250.79,357.35,271.34,352.18,270.08,366.12" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="294" y="358.8979">generalization</text></g><!--MD5=[243ee83ff0d4007ecf45b093351a33ec]
+link D1 to F4--><g id="link_D1_F4"><path d="M492,275.49 C492,262 492,242.69 492,227.26 " fill="none" id="D1-to-F4" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="492,222.18,488,231.18,492,227.18,496,231.18,492,222.18" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="456.5" y="255.1479">extends</text></g><!--MD5=[4daed45dc7e5affe7578a2cb8543dee4]
+link F to F1--><g id="link_F_F1"><path d="M151.18,355.93 C128.28,354.35 102.99,347.91 88,329.5 C80.65,320.47 68.04,222.04 116,164 C125.24,152.81 138.69,145.28 152.2,140.23 " fill="none" id="F-to-F1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="157.17,138.47,147.3507,137.7074,152.4574,140.1408,150.024,145.2475,157.17,138.47" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="66" y="326.3979">include</text></g><!--MD5=[4c0385710974dc02c82c307b84059ff8]
+link F to F2--><g id="link_F_F2"><path d="M173.45,339.02 C129.37,315.24 52.39,265.23 88,221.5 C101.88,204.45 124.58,197.68 146.05,195.51 " fill="none" id="F-to-F2" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="151.18,195.07,141.8705,191.8555,146.1984,195.4982,142.5556,199.8261,151.18,195.07" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="66" y="237.3979">include</text></g><!--MD5=[1ba87dc245015b298de8977f527c2b1c]
+link F to F3--><g id="link_F_F3"><path d="M201.5,336.23 C201.5,322.5 201.5,302.99 201.5,288.02 " fill="none" id="F-to-F3" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="201.5,282.72,197.5,291.72,201.5,287.72,205.5,291.72,201.5,282.72" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="168.5" y="315.8979">include</text></g><!--MD5=[0bd8ea18a1e7ef204df755fef7018720]
+link F to F4--><g id="link_F_F4"><path d="M229.12,339.06 C280.11,312.38 391.74,253.95 451.46,222.69 " fill="none" id="F-to-F4" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="456.02,220.31,446.1909,220.9333,451.5886,222.6258,449.8961,228.0235,456.02,220.31" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="313.5" y="260.8979">include</text></g><!--MD5=[ac7790a9551236c22cf57c35d9e4153c]
+link F to F5--><g id="link_F_F5"><path d="M165.9,341 C138.71,329.67 103.37,309.68 88,278.5 C84.27,270.93 87.28,267.91 88,259.5 C94.24,186.04 69.59,153.28 116,96 C124.08,86.03 135.51,78.97 147.39,73.97 " fill="none" id="F-to-F5" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="152.14,72.09,142.2992,71.6925,147.4927,73.9346,145.2506,79.1282,152.14,72.09" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="66" y="275.3979">include</text></g><!--MD5=[8cfd9066528e6f17a8a48969fcfe85c3]
+link D to D1--><g id="link_D_D1"><path d="M492,362.23 C492,348.5 492,328.99 492,314.02 " fill="none" id="D-to-D1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="492,308.72,488,317.72,492,313.72,496,317.72,492,308.72" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="459" y="341.8979">include</text></g><!--MD5=[5daf5bf2c715abe6e897f2930873e81c]
+link D to D2--><g id="link_D_D2"><path d="M461.11,365.76 C442.91,356.71 420.49,343.23 405,326 C350.73,265.62 282.27,219.64 334.5,157.5 C355.35,132.69 389.94,124.79 421.41,123.54 " fill="none" id="D-to-D2" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="426.43,123.39,417.3194,119.6487,421.432,123.5328,417.5479,127.6454,426.43,123.39" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="313.5" y="173.3979">include</text></g><!--MD5=[2162f79bcd69911d5228cbd0adc13a0d]
+link D to D3--><g id="link_D_D3"><path d="M462.16,365.36 C444.13,356.08 421.52,342.5 405,326 C362.46,283.49 350.77,268.4 334.5,210.5 C318.6,153.92 404.66,96.26 405,96 C416.35,87.3 430.2,80.57 443.49,75.47 " fill="none" id="D-to-D3" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="448.35,73.66,438.5201,73.0485,443.6637,75.4031,441.3091,80.5466,448.35,73.66" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="313.5" y="207.3979">include</text></g><!--MD5=[a3b0044b8a9aa2c13efc3ee9433ec689]
+link u to F--><g id="link_u_F"><path d="M35.25,399.16 C60.95,391.98 117.25,376.25 156.97,365.16 " fill="none" id="u-to-F" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="162.22,363.69,152.4762,362.2552,157.4038,365.0334,154.6256,369.961,162.22,363.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[592ce9f66e994515f672f21e336edb1e]
+link u to D--><g id="link_u_D"><path d="M35.04,402.31 C93.8,399.3 328.5,387.31 436.32,381.8 " fill="none" id="u-to-D" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="441.36,381.54,432.1659,378.0089,436.3666,381.7975,432.578,385.9983,441.36,381.54" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f75a75aa594b34fc7c858f707edbfc7f]
+@startuml
+left to right direction
+actor User as u
+
+rectangle  dis_file_sys {
+
+  usecase "管理文件" as F
+  usecase "管理目录" as D
+
+  
+  usecase "上传文件" as F1
+  usecase "下载文件" as F2
+  usecase "删除文件" as F3
+  usecase "查看文件元数据信息" as F4
+  usecase "修改文件名" as F5
+
+  usecase "查询目录信息" as D1
+  usecase "修改目录名称" as D2
+  usecase "新建空目录" as D3
+
+  F <|- - D: generalization
+ 
+  D1 .> F4: extends
+
+  F .> F1:include
+  F .> F2:include
+  F .> F3:include
+  F .> F4:include
+  F .> F5:include
+
+  D .> D1:include
+  D .> D2:include
+  D .> D3:include
+
+}
+u - -> F
+u - -> D
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>
